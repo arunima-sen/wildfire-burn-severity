@@ -1,3 +1,5 @@
 This notebook implements an end-to-end workflow for creating wildfire burn severity maps from historical fire data. The approach combines deep learning feature enhancement with OBIA to transform pixel-level susceptibility predictions into spatially coherent fire risk zones.
 
-The workflow processes CLIMAAX fire data for Catalonia (1991-2022), creates baseline susceptibility maps using fire proximity and environmental factors, applies ResNet+FPN enhancement for multi-scale spatial feature extraction, and implements 5-class burn severity classification. An interactive Gradio interface enables real-time parameter exploration, inspired by eCognition's GUI-based OBIA approach, but accessible.
+The workflow processes [CLIMAAX](https://github.com/CLIMAAX/FIRE) fire data for Catalonia (1991-2022), creates baseline susceptibility maps using fire proximity and environmental factors, applies ResNet+FPN enhancement for multi-scale spatial feature extraction, and implements 5-class burn severity classification. An interactive Gradio interface enables real-time parameter exploration, inspired by eCognition's GUI-based OBIA approach, but accessible.
+
+
